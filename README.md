@@ -4,7 +4,7 @@
 ![preview](.github/preview.png)
 representação do projeto
 
-[🔗Clique aqui para acessar](https://atilacsilva.github.io/Good-Nutrition) 
+[🔗Clique aqui para acessar](https://atilacsilva.github.io/flexblog) 
 
 ## 👾 Sobre o Projeto do curso
 No curso você aprende como funciona e utilizar o flexbox para contruir um layout responsivél e inteiramente feito com essa ferramenta.
