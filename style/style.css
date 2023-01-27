@@ -25,8 +25,8 @@ img {
 /*===== SUPERINFO-BG=====*/
 
 .superinfo-bg {
-  background: #122ab2;
-  color: white;
+  background: blanchedalmond;
+  color: #222222;
 }
 
 .superinfo {
@@ -45,13 +45,13 @@ img {
 }
 
 .superinfo a {
-  color: white;
+  color: #222222;
 }
 
 /*==== MENU ====*/
 
 .menu-bg {
-  background: #2c70ff;
+  background: #f9265e;
 }
 
 .menu {
@@ -84,12 +84,21 @@ img {
   font-size: 1.25em;
   display: block;
   padding: 10px;
+  transition: linear 0.4s;
 }
 
 .menu-nav a:hover {
-  color: #122ab2;
+  color: blanchedalmond;
+  transition: all linear 0.4s;
 }
 
+/* @media (max-width: 800) {
+    .menu-nav a {
+      margin: 5px;
+      padding: 5px;
+     
+    }
+ } */
 /*====> Introdução ====*/
 
 .introducao {
@@ -102,8 +111,8 @@ img {
 
 /*==== Sobre ====*/
 .sobre {
-  border-top: 2px solid #2c70ff;
-  border-bottom: 2px solid #2c70ff;
+  border-top: 2px solid blanchedalmond;
+  border-bottom: 2px solid blanchedalmond;
   max-width: 960px;
   margin: 0 auto;
   padding: 60px 0;
@@ -224,7 +233,7 @@ img {
 
 .preco-item li {
   display: flex;
-  /* justify-content: space-between; */
+
   align-items: center;
   margin-bottom: 15px;
   position: relative;
@@ -236,25 +245,61 @@ img {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #2c70ff;
+  background-color: #f9265e;
   position: absolute;
   right: 3px;
 }
 
 .preco-item a {
-  max-width: 300px;
-  display: block;
+  max-width: 200px;
   margin: 20px auto;
+  display: block;
   border: 4px solid;
-  color: #222222;
+  border-radius: 0.8rem;
+  color: #a4a4a4;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2.25em;
+  font-size: 2em;
   padding: 15px 0;
   text-align: center;
+  transition: linear 0.5s;
+}
+
+.preco-item #ouro:hover {
+  transform: scale(1.1);
+  color: gold;
+  transition-property: transform, color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.preco-item #prata:hover {
+  transform: scale(1.1);
+  color: lightblue;
+  transition-property: transform, color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.preco-item #cobre:hover {
+  transform: scale(1.1);
+  color: coral;
+  transition-property: transform, color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
 }
 
 @media (max-width: 800px) {
+  .menu-nav a {
+    margin: 5px 10px;
+    padding: 5px;
+    border: 4px solid blanchedalmond;
+    background-color: azure;
+    border-radius: 0.8rem;
+
+    color: #222222;
+    font-size: 1em;
+  }
+
   .preco {
     padding: 0 10px;
   }
@@ -265,6 +310,17 @@ img {
 
   .preco .preco-item:nth-child(2) {
     order: -1;
+  }
+
+  .preco-item #ouro {
+    color: gold;
+  }
+
+  .preco-item #prata {
+    color: lightblue;
+  }
+  .preco-item #cobre {
+    color: coral;
   }
 }
 
@@ -357,7 +413,7 @@ img {
   color: #7c7c7c;
   font-style: italic;
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
-  border: 4px solid #2c70ff;
+  border: 4px solid #f9265e;
   background: transparent;
   padding: 15px 10px;
   margin: 0;
@@ -370,7 +426,7 @@ img {
   font-size: 2.25em;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #2c70ff;
+  background-color: #f9265e;
   color: white;
   margin: 0;
   cursor: pointer;
@@ -388,14 +444,14 @@ img {
 
 .footer {
   display: flex;
-  height: 200px;
-  background: #2c70ff;
+  height: 120px;
+  background: blanchedalmond;
   align-items: center;
 }
 
 .footer p {
   flex: 1;
   text-align: center;
-  font-size: 2.25em;
-  color: #122ab2;
+  font-size: 2em;
+  color: #222222;
 }
