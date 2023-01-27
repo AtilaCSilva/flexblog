@@ -419,7 +419,7 @@ img {
 
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   height: 120px;
   background: blanchedalmond;
   align-items: center;
@@ -429,20 +429,5 @@ img {
   flex: 1;
   text-align: center;
   font-size: 1.5em;
-  margin-top: 15px;
-  color: #222222;
-}
-
-.footer-tel {
-  flex: 1;
-  text-align: center;
-}
-
-.footer-tel span {
-  font-size: 1.1em;
-}
-
-.footer-tel a {
-  font-size: 1em;
   color: #222222;
 }
