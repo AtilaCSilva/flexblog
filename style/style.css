@@ -70,13 +70,6 @@ img {
   transition: all linear 0.4s;
 }
 
-/* @media (max-width: 800) {
-    .menu-nav a {
-      margin: 5px;
-      padding: 5px;
-     
-    }
- } */
 /*====> Introdução ====*/
 
 .introducao {
@@ -408,6 +401,7 @@ img {
   color: white;
   margin: 0;
   cursor: pointer;
+  outline-color: #f9265e;
   border: 0;
 
   padding: 15px 10px;
