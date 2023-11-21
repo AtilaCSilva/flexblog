@@ -7,7 +7,7 @@ representação do projeto
 [🔗Clique aqui para acessar](https://atilacsilva.github.io/flexblog) 
 
 ## 👾 Sobre o Projeto do curso
-No curso você aprende como funciona e utilizar o flexbox para contruir um layout responsivél e inteiramente feito com essa ferramenta.
+No curso você aprende como funciona e utilizar o flexbox para construir um layout responsível e inteiramente feito com essa ferramenta.
 Se você deseja saber mais sobre ou fazer o curso ou outros vários do universo tech: [Acesse aqui](https://www.origamid.com/)
 
 ## 🛠️ Tecnologias!
